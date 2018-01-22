@@ -1,0 +1,38 @@
+Run app on Device:
+
+https://developer.android.com/studio/run/oem-usb.html
+
+
+Front-end --> Layout
+
+--> Parent Layout -->
+
+Container
+
+Parent class --> ViewGroup class --> more than one view --> button, radio button, check box, etc
+
+
+constraint layout, relative layout, linear layout, frame layout, etc
+
+
+Relative Layout --> adv 
+--> Drag and drop
+--> 
+
+
+attributes :
+android:layout_width =""
+
+android:layout_height =""
+
+3 ways:
+
+--> wrap_content -->
+--> match_parent --> match width acc. to the screen width
+height --> match height acc. to the screen height
+
+
+
+14sp --> scaleable pixels
+
+// Event Handling --> Event --> button click is event, key press is an event
