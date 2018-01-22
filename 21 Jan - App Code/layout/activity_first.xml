@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinti.android.firstapp.FirstActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your first value"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/mytextview"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytextview"
+        android:id="@+id/firstEditText"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your second value"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/firstEditText"
+        android:id="@+id/secondTextView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondTextView"
+        android:inputType="number"
+        android:id="@+id/secondEdit"/>
+
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Result"
+        android:textSize="22sp"/>
+
+
+</RelativeLayout>
