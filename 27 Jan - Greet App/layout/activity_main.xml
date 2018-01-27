@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.android.greetapp.MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:id="@+id/firstTextView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstTextView"
+        android:id="@+id/nameEditText"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your password"
+        android:layout_below="@+id/nameEditText"
+        android:id="@+id/secondTextView"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondTextView"
+        android:id="@+id/passwordEditText"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/submitButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_toRightOf="@+id/submitButton"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/clearButton"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="20dp"
+        android:fontFamily="atomic_age"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/resultTextView"/>
+
+</RelativeLayout>

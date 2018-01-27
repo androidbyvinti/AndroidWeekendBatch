@@ -1,0 +1,9 @@
+dp --> margins or padding --> density pixels
+sp --> text --> scaleable pixels for scaling or dp for unscaling
+
+
+RelativeLayout --> align according to the position of parent and other child elements
+
+ adv: drag and drop
+
+by default --> (0,0)	--> Left 0 position and Top 0 position
