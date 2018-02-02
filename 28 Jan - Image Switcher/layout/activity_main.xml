@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.bmpl.imageswitcher.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image1"
+        android:id="@+id/imageOneButton"/>
+
+    <Button
+        android:id="@+id/imageTwoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image2"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/imageThreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image3"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/imageFourButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
