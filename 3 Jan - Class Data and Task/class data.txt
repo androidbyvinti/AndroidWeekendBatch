@@ -1,0 +1,40 @@
+Layouts: Screen Desginning
+
+View : Predefined class
+
+--> eg --> button is an View, TextView is an View, EditText is an View, etc
+
+View --> attributes and listener
+
+
+
+ViewGroup : Predefined class
+
+--> to handle more than one view and more than one viewgroup. 
+
+collection of view
+eg --> 
+Layouts --> 
+RelativeLayout, LinearLayout, FrameLayout, TableLayout, etc.
+
+
+
+RelativeLayout: work with the relative position --> parent relative and other child relative position
+
+by default -> 0,0
+
+adv: 
+
+Drag and Drop
+more no. of attributes
+
+dis:
+
+Dependency
+
+
+
+
+
+
+
